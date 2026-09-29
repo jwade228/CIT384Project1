@@ -145,3 +145,27 @@ main p {
   width: 100%;
   margin-top: 15px;
 }
+
+/* About page styling */
+
+.about-intro,
+.about-section {
+  width: 85%;
+  max-width: 950px;
+  margin: 35px auto;
+  padding: 25px;
+  background-color: rgba(0, 0, 0, 0.72);
+  border-radius: 10px;
+}
+
+.about-intro h2,
+.about-section h2 {
+  color: #ff2bd6;
+  text-align: center;
+}
+
+.about-intro p,
+.about-section p {
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
