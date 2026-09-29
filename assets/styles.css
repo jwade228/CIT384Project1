@@ -169,3 +169,81 @@ main p {
   line-height: 1.7;
   font-size: 1.05rem;
 }
+
+/* Form styling */
+.form-intro,
+.form-section {
+  width: 85%;
+  max-width: 850px;
+  margin: 35px auto;
+  padding: 25px;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+}
+
+.form-intro h2 {
+  color: #ff2bd6;
+  text-align: center;
+}
+
+.form-intro p {
+  line-height: 1.6;
+}
+
+fieldset {
+  margin-bottom: 25px;
+  padding: 20px;
+  border: 2px solid #ff2bd6;
+  border-radius: 8px;
+}
+
+legend {
+  padding: 0 10px;
+  color: #ff2bd6;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+button {
+  padding: 12px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff2bd6;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c91ba8;
+}
