@@ -54,21 +54,6 @@ body {
   background-repeat: no-repeat;
 }
 
-/* ifram video styling */
-.video-container {
-  display: flex;
-  justify-content: center;
-  margin: 30px auto;
-}
-
-.video-container iframe {
-  width: 800px;
-  max-width: 90%;
-  height: 450px;
-  border: none;
-  border-radius: 10px;
-}
-
 /* Styling for main content sections */
 main section {
   max-width: 850px;
@@ -168,6 +153,16 @@ main p {
 .about-section p {
   line-height: 1.7;
   font-size: 1.05rem;
+}
+
+.about-image {
+  display: block;
+  width: 80%;
+  max-width: 750px;
+  height: 300px;
+  object-fit: cover;
+  margin: 20px auto;
+  border-radius: 8px;
 }
 
 /* Form styling */
