@@ -88,3 +88,60 @@ main p {
   line-height: 1.7;
   font-size: 1.05rem;
 }
+
+/* Artists card styling and formatting */
+.artists-intro,
+.artists-section {
+  width: 85%;
+  max-width: 1000px;
+  margin: 35px auto;
+  padding: 25px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+.artists-intro h2,
+.artists-section h2 {
+  color: #ff2bd6;
+  text-align: center;
+}
+
+.artists-intro p {
+  line-height: 1.6;
+}
+
+.artist-card {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin: 25px 0;
+  padding: 20px;
+  background-color: rgba(30, 20, 45, 0.9);
+  border-radius: 8px;
+}
+
+.artist-card img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.artist-content {
+  flex: 1;
+}
+
+.artist-content h3 {
+  margin-top: 0;
+  color: #ff2bd6;
+  font-size: 1.5rem;
+}
+
+.artist-content p {
+  line-height: 1.6;
+}
+
+.artist-content audio {
+  width: 100%;
+  margin-top: 15px;
+}
