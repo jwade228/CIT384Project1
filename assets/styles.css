@@ -37,6 +37,8 @@ nav a:hover {
   object-fit: contain;
 }
 
+/* Header/Body background */
+
 header{
     text-align: center;
 }
@@ -45,11 +47,44 @@ body {
   margin: 0;
   min-height: 100vh;
   color: white;
-  background:
-    linear-gradient(rgba(8, 5, 20, 0.75), rgba(8, 5, 20, 0.9)),
-    url("../assets/images/image4.jpg");
+  background: linear-gradient(rgba(8, 5, 20, 0.75), rgba(8, 5, 20, 0.9)), url("../assets/images/image4.jpg");
 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+/* ifram video styling */
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.video-container iframe {
+  width: 800px;
+  max-width: 90%;
+  height: 450px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* Styling for main content sections */
+main section {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-left: 5px solid #ff2bd6;
+  border-radius: 10px;
+}
+
+main h2 {
+  color: #ff2bd6;
+  margin-top: 0;
+}
+
+main p {
+  line-height: 1.7;
+  font-size: 1.05rem;
 }
